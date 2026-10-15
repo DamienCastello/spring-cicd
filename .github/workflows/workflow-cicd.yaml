@@ -1,5 +1,5 @@
 name: Mise en place CodeQL
-run-name: Mise en place CodeQL
+run-name: Mise en place CodeQL et Jacoco
 
 on:
   push:
