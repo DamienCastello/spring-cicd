@@ -1,4 +1,5 @@
-name: Configuration Java
+name: Mise en place CodeQL
+run-name: Mise en place CodeQL
 
 on:
   push:
