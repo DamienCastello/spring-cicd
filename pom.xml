@@ -107,6 +107,13 @@
                         </goals>
                     </execution>
                     <execution>
+                        <id>rapport-couverture</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                    <execution>
                         <id>contrôle-couverture</id>
                         <phase>verify</phase>
                         <goals>
