@@ -7,5 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-      - run: ls
+      - name: Récupérer le code source
+        uses: actions/checkout@v7
+      - name: Lister les fichiers
+        run: ls -al
